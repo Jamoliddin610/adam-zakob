@@ -13,21 +13,35 @@
 
 <body>
   <div class="container">
-    <section class="pageofhead">
+    <section id="pageofhead">
       <header class="sectionhead">
         <a href="#" class="headericona"><img src="./imgs/Group31.svg" alt="bu yerda rasm turish kerak edi" class="icon"></a>
         <ul class="headerlist1">
-          <li class="headerli"><a href="#" target="_blank" class="headerlinks"></a>About</li>
+          <li class="headerlifirst"><a href="#" target="_blank" class="headerlinks" id="about"></a>About</li>
           <li class="headerli"><a href="#" target="_blank" class="headerlinks"></a>Services</li>
           <li class="headerli"><a href="#" target="_blank" class="headerlinks"></a>Works</li>
           <li class="headerli"><a href="#" target="_blank" class="headerlinks"></a>Blog</li>
         </ul>
-        <button class="headerbutton"><img src="./imgs/Menu.svg" alt="bu yerda rasm turish kerak edi"
-            class="headerimg"></button>
+        <div class="dropdown">
+          <button class="dropbtn"><img src="./imgs/feather_menu.svg" alt="bu yerda rasm turish kerak"></button>
+          <div class="dropdown-content">
+          <a href="#services">Services</a>
+          <a href="#">Portfolio</a>
+          <a href="#">Clients</a>
+          <a href="#">Testimonials</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact Me</a>
+          </div>
+        </div>
       </header>
-      <main class="sectionmain">
-        <p class="mainpargrahp">Hello,<span>Adam Zakob</span>a freelance UX Designer</p>
-        <button class="lets">Let’s Talk</button>
+      
+      <main class="sectionmain1">
+        <div class="hello">
+          <span class="adam1">Hello,</span>
+          <h1 class="adam">Adam Zakob</h1>
+          <p class="mainpargrahp">a freelance UX Designer</p>
+          <button class="lets">Let’s Talk</button>
+        </div>  
         <img src="./imgs/user-image1.png" alt="bu yerda rasm turish kerak edi" class="mainimg">
       </main>
       <img src="./imgs/Group(1).png" alt="bu yerda rasm turish kerak" class="firstposition1">
@@ -36,9 +50,12 @@
       <img src="./imgs/Vector(12).svg" alt="bu yerda rasm turish kerak" class="firstposition4">
       <img src="./imgs/Vector(13).svg" alt="bu yerda rasm turish kerak" class="firstposition5">
       <img src="./imgs/Vector(14).svg" alt="bu yerda rasm turish kerak" class="firstposition6">
+      <img src="./imgs/Vector(13).svg" alt="bu yerda rasm turish kerak" class="firstposition7">
+      <img src="./imgs/Ellipse16.png" alt="bu yerda rasm turish kerak" class="firstposition8">
     </section>
+   
     <section class="pageofmain1">
-      <h4 class="services">Services</h4>
+      <h4 class="services" id="services">Services</h4>
       <hr class="sectionhr1">
       <h2 class="sectionh2">What  actually 
       I love to do</h2>
@@ -70,8 +87,8 @@ what's shown below, plus everything that will be added in the future.</p>
       </ul>
     </section>
     <section class="pageofmain2">
-      <h4 class="portfolio">Portfolio</h4>
-      <hr class="sectionhr1">
+      <h4 class="services">Portfolio</h4>
+      <hr class="sectionhr2">
       <h2 class="sectionh2">All Creative 
 Projects</h2>
       <div class="sectiondiv3">
@@ -84,9 +101,9 @@ Projects</h2>
       </div>
     </section>
     <section class="pageofmain3">
-      <h4 class="cients">Clients</h4>
-      <hr class="sectionhr1">
-      <h2 class="sectionh2">Big Deal
+      <h4 class="services">Clients</h4>
+      <hr class="sectionhr3">
+      <h2 class="sectionh2_0">Big Deal
 With</h2>
         <ul class="sectionlist3">
           <li class="sectionli3">
@@ -113,38 +130,40 @@ With</h2>
         </ul>
     </section>
     <section class="pageofmain4">
-      <h4 class="Testimonials">Testimonials</h4>
-      <hr class="sectionhr1">
+      <h4 class="services">Testimonials</h4>
+      <hr class="sectionhr4">
       <h2 class="sectionh2">What People
 Says</h2>
       <div class="sectiondiv5">
         <img src="./imgs/2060581.svg" alt="bu yerda rasm turish kerak" class="imgoverparagraph">
         <p class="sectionparagraph5">Quote testimonials demonstrate support for your product or feature from a user who has experience with it. This can be significantly more effective than traditional advertising methods as most consumers will trust.</p>
         <img src="./imgs/aoQ4DYZLE_E.png" alt="bu yerda rasm turish kerak" class="imgbelowparagraph">
-        <p class="sectionparagraph"><span class="name">Michal John</span> CEO of MZP</p>
+        <h3 class="name">Michal John</h3>
+        <p class="sectionparagraph"> CEO of MZP</p>
+        <img class="pager" src="./imgs/pager.svg" alt="bu yerda rasm turish kerak edi">
       </div>
-      <img src="./imgs/aoQ4DYZLE_E(1).png" alt="bu yerda rasm turish kerak edi" class="imgoffaces">
-      <img src="./imgs/aoQ4DYZLE_E(2).png" alt="bu yerda rasm turish kerak edi" class="imgoffaces">
-      <img src="./imgs/aoQ4DYZLE_E(3).png" alt="bu yerda rasm turish kerak edi" class="imgoffaces">
-      <img src="./imgs/aoQ4DYZLE_E(4).png" alt="bu yerda rasm turish kerak edi" class="imgoffaces">
+      <img src="./imgs/aoQ4DYZLE_E(1).png" alt="bu yerda rasm turish kerak edi" class="imgoffaces1">
+      <img src="./imgs/aoQ4DYZLE_E(2).png" alt="bu yerda rasm turish kerak edi" class="imgoffaces2">
+      <img src="./imgs/aoQ4DYZLE_E(3).png" alt="bu yerda rasm turish kerak edi" class="imgoffaces3">
+      <img src="./imgs/aoQ4DYZLE_E(4).png" alt="bu yerda rasm turish kerak edi" class="imgoffaces4">
     </section>
     <section class="pageofmain5">
-      <h4 class="Blog">Blog</h4>
-      <hr class="sectionhr1">
+      <h4 class="services">Blog</h4>
+      <hr class="sectionhr5">
       <h2 class="sectionh2">Get News
 Feeds</h2>
-<div class="sectiondiv6.1">
+<div class="sectiondiv6_1">
   <img src="./imgs/Rectangle13.png" alt="bu yerda rasm turish kerak" class="tech">
-  <time>20 June/2020</time>
+  <span  class="naps">20 June/2020</span>
   <p class="sectiondiv6paragraph">Technology is evolving rapidly. New devices and applications.</p>
 </div>
 <div class="sectiondiv6">
-  <time>20 June/2020</time>
-  <p class="sectiondiv6paragraph">New devices and applications come to the market.</p>
+  <span class="snaps">20 June/2020</span>
+  <p class="sectiondiv6paragraph6">New devices and applications come to the market.</p>
 </div>
-<div class="sectiondiv6">
-  <time>20 June/2020</time>
-  <p class="sectiondiv6paragraph">Every day providing solutions to problems.</p>
+<div class="sectiondiv66">
+  <span class="snaps">20 June/2020</span>
+  <p class="sectiondiv6paragraph6">Every day providing solutions to problems.</p>
 </div>
     </section>
   </div>
