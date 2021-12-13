@@ -2,39 +2,48 @@
 .container{
     width: 1440px;
     margin: 0 auto;
-    padding: 0 165px;
-    /* border: solid 1px black; */
-    padding-top: 25px;
+    box-sizing: border-box;
     position: relative;
+    /* border: solid 1px black; */
+    padding-top: 40px;
     
 }
 
 .sectionhead{
     display: flex;
     align-items: center;
-    
+    padding:  0 165px;
     height: 100px;  
+    justify-content: space-between;
     
 }
 .headerlist1{
     display: flex;
     list-style-type: none;
-    width: 338px;
-    justify-content: space-between;
-    margin: 0 759px 0 140px;
     font-family: Red Hat Display;
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 26px;
-    
-    
+    width: 338px;
+    justify-content: space-between;
+    padding: 0;
     cursor: pointer;
 
 }
-.headerli{
+
+.headerlinks{
     opacity: 0.5;
     color: #25202F;
+    text-decoration: none;
+}
+.nav-first-div{
+    display: flex;
+    align-items: center;
+    width: 480px;
+    justify-content: space-between;
+}
+.headerlinks.active{
+    opacity: 0.9;
 }
 
 
@@ -90,7 +99,7 @@
 
 .sectionmain1{
     display: flex;
-    /* border: solid 1px black; */
+    padding:  0 165px;
 }
 .adam1{
     font-family: Red Hat Display;
@@ -145,83 +154,116 @@
 
 }
 .hello{
-    /* border: solid 1px black; */
+    
     height: 350px;
     margin-top: 100px ;
 }
 .mainimg{
     position: absolute;
-    left: 900px;
-    top: 35px;
-    z-index: 2;
+    width: 535px;
+    height: 622px;
+    left: 664px;
+    top: 46px;
     
 }
 .firstposition1{
     position: absolute;
-    right: 80px;
-    top: 200px;
+    left: 89.31%;
+    right: 2.64%;
+    top: 4.08%;
+    bottom: 93.46%;
+
+    
 }
 .firstposition2 {
     position: absolute;
-    right: 105px;
-    top: 315px;
+    left: 94.45%;
+    right: 4.88%;
+    top: 6.80%;
+    bottom: 93.06%;
 }
 .firstposition3 {
     position: absolute;
-    Top: 726px; 
-    Left: 996px;
+    left: 53.9%;
+    right: 45.62%;
+    top: 16.89%;
+    bottom: 84.06%;
     
 }
 .firstposition4 {
     position: absolute;
-    top:264px;
-    left:1429px;
+    left: 83.28%;
+    right: 16.24%;
+    top: 5.79%;
+    bottom: 94.27%;
 
 }
 .firstposition5 {
     position: absolute;
-    top: 175px;
-    left:874px ;
- 
+    left: 46.82%;
+    right: 52.7%;
+    top: 4.2%;
+    bottom: 96.15%;
 
 }
 .firstposition6 {
     position: absolute;
-    top: 466px ;
-    left: 1398px;
-    
-    z-index: 3;
+    left: 81.11%;
+    right: 14.58%;
+    top: 10.36%;
+    bottom: 89.21%;
 
 
 }
 .firstposition7 {
     position: absolute;
-    top:32px ;
-    left: 1298px;
+    left: 74.18%;
+    right: 25.34%;
+    top: 0.57%;
+    bottom: 99.39%;
 
      
 }
 .firstposition8 {
     position: absolute;
-    top: 80px;
-    left: 1050px;
-    z-index: 1;
-    width: 450px;
-    /* border: solid 1px black; */
+    width: 373px;
+    height: 373px;
+    left: 913px;
+    top: 126px;
+    
+    
+    
+
+}
+.firstposition9 {
+    position: absolute;
+    left: 78.89%;
+    right: 16.8%;
+    top: 4.57%;
+    bottom: 94.9%;
+
+
+}
+.firstposition10 {
+    position: absolute;
+    left: 42.63%;
+    right: 53.26%;
+    top: 11.86%;
+    bottom: 88.21%;
 
 
 }
 /* ----------pageofmain1------------ */
 .pageofmain1{
     margin-top: 200px;
+    padding: 0 165px;
 }
 .services{
     font-family: Red Hat Display;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 24px;
-    /* identical to box height */
+    margin: 0 0 5px 0;
+    
 
 
     color: #8643DC;
@@ -229,19 +271,17 @@
 .sectionhr1{
     width: 50px;
     height: 2px;
-    background:rgba(134, 67, 220, 0.6);
+    background:#8643DC;
     border: none;
     position: absolute;
-    width: 50px;
-    height: 2px;
-    left: 165px;
-    top: 802px;
+   
+    
     
 }
 .sectionh2{
     font-family: Red Hat Display;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
     line-height: 48px;
     width: 236px;
@@ -249,11 +289,15 @@
     color: #25202F;
 
 }
+h4{
+    font-weight: normal;
+}
 .sectionlist2{
     display: flex;
     list-style: none;
     justify-content: space-between;
     padding: 0;
+    margin-top: 40px;
 }
 .sectiondiv1{
     display: flex;
@@ -262,7 +306,7 @@
     font-weight: 500;
     font-size: 24px;
     line-height: 32px;
-    /* identical to box height */
+    
 
 
     color: #25202F;
@@ -274,7 +318,7 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 32px;
-    /* or 200% */
+    
 
 
     color: #47444E;
@@ -282,42 +326,44 @@
 .liicons{
     margin-right: 20px ;
 }
-.sectionparagraph{
+.sectionparagraph {
     font-family: Red Hat Display;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 32px;
     
+    color: #000000;
+    margin: 0;
 
-
-    color: #47444E;
 }
 /* ------------------pageofmain2 -----------------*/
 .pageofmain2{
-    margin-top: 120px;
+    margin-top: 90px;
     background: linear-gradient(180deg, rgba(187, 133, 255, 0.14) 0%, rgba(255, 177, 222, 0.14) 100%);
     width: auto;
-    padding-top: 30px ;
+    padding: 30px 165px;
+    
+    height: 675px;
+
 }
 .sectionhr2 {
     width: 50px;
     height: 2px;
-    background: rgba(134, 67, 220, 0.6);
+    background: #8643DC;
     border: none;
     position: absolute;
-    width: 50px;
-    height: 2px;
-    left: 165px;
-    top: 1325px;
+    
 
 }
 .sectiondiv3{
     display: flex;
     position: absolute;
-    
-    left: 1400px;
-    top: 1424px;
+    color: rgba(37, 32, 47, 1);
+   left: auto;
+  
+   left: 1095px;
+   top: 1368px;
 }
 
 
@@ -335,24 +381,40 @@
     text-decoration-line: underline;
     margin-right: 10px;
 }
-.sectiondiv4{
-    display: flex;
-    justify-content: space-between;
+
+.sectionimg4-1{
+    position: absolute;
+    /* width: 540px; */
+    /* height: 427px; */
+    left: 115px;
+    top: 1475px;
+
     
+    filter: drop-shadow(0px 20px 50px rgba(220, 192, 255, 0.3));
+    border-radius: 10px;
 }
-.sectionimg4{
-    width: 700px;
-    height: 527px;
+.sectionimg4-2{
+    position: absolute;
+    /* width: 540px;
+    height: 427px; */
+    left: 685px;
+    top: 1475px;
+    
+    
+    filter: drop-shadow(0px 20px 50px rgba(220, 192, 255, 0.3));
+    border-radius: 10px;
 }
 
 /* ----------------------pageofmain3------------------ */
 .pageofmain3{
-    margin-top: 150px;
+    margin-top: 120px;
+    width: AUTO;
+    padding: 0 165px;
 }
 .sectionhr3{
     width: 50px;
     height: 2px;
-    background: rgba(134, 67, 220, 0.6);
+    background: #8643DC;
     border: none;
     position: absolute;
     width: 50px;
@@ -413,22 +475,22 @@
 }
 /* ------------pageofmain4---------- */
 .pageofmain4{
-    margin-top: 150px;
-    height: 800px;
-    background: linear-gradient(180deg, rgba(203, 163, 255, 0.2) 0%, rgba(197, 255, 176, 0.2) 100%);
-    padding-top: 20px;
+    margin-top: 120px;
+    height: 722px;
+    background: linear-gradient(180deg, rgba(203, 163, 255, 0.2) 0%, rgba(197, 255, 176, 0.2) 100%);  
+    padding: 50px 165px;
+    box-sizing: border-box;
     
 }
 .sectionhr4{
     width: 50px;
     height: 2px;
-    background: rgba(134, 67, 220, 0.6);
+    background: #8643DC;
     border: none;
     position: absolute;
    width: 50px;
    height: 2px;
-   left: 170px;
-   top: 2725px;
+   
 }
 .sectionparagraph5{
     font-family: Red Hat Display;
@@ -446,9 +508,20 @@
 .sectiondiv5{
     width: 570px;
     /* border: solid 1px black; */
-    margin: 0 auto;
-    margin-top: 100px;
+    margin: auto auto;
     
+    
+}
+.sectionparagraph1{
+    text-align: center;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    margin: 0;
+
+    color: #000000;
 }
 .imgoverparagraph{
     margin-left: 270px;
@@ -471,17 +544,7 @@
     color: #000000;
     margin-bottom: 6px;
 }
-.sectionparagraph{
-    font-family: Red Hat Display;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 21px;
-    text-align: center;
-    color: #000000;
-    margin: 0;
-    
-}
+
 .pager{
     margin-top: 50px;
     margin-left: 200px;
@@ -489,9 +552,9 @@
 .imgoffaces1{
     position: absolute;
     width: 70px;
-    height: 85px;
-    left: 430px;
-    top: 3187px;
+    height: 70px;
+    left: 330px;
+    top: 3137px;
     border-radius: 15px;
     opacity: 0.7;
     mix-blend-mode: normal;
@@ -499,9 +562,9 @@
 .imgoffaces2 {
     position: absolute;
     width: 70px;
-    height: 85px;
-    left: 1250px;
-    top: 3187px;
+    height: 70px;
+    left: 1054px;
+    top: 3137px;
     border-radius: 15px;
     opacity: 0.7;
     mix-blend-mode: normal;
@@ -509,9 +572,9 @@
 .imgoffaces3 {
     position: absolute;
     width: 70px;
-    height: 85px;
-    left: 1450px;
-    top: 2937px;
+    height: 70px;
+    left: 1168px;
+    top: 2885px;
     border-radius: 15px;
     opacity: 0.7;
     mix-blend-mode: normal;
@@ -519,36 +582,38 @@
 .imgoffaces4 {
     position: absolute;
     width: 70px;
-    height: 85px;
-    left: 280px;
-    top: 2937px;
+    height: 70px;
+    left: 194px;
+    top: 2885px;
     border-radius: 15px;
     opacity: 0.7;
     mix-blend-mode: normal;
 }
 /* ---------------pageofmain5----------- */
 .pageofmain5{
-    margin-top: 50px;
+    margin-top: 120px;
     height: 800px;
+    width: auto;
+    padding: 0 165px;
     
 }
 .sectionhr5{
     width: 50px;
     height: 2px;
-    background: rgba(134, 67, 220, 0.6);
+    background: #8643DC;
     border: none;
     position: absolute;
     width: 50px;
     height: 2px;
-    left: 165px;
-    top: 3557px;
+   
 }
 .sectiondiv6_1{
     position: absolute;
     width: 350px;
     height: 233px;
-    left: 375px;
-    top: 3533px;
+    
+    left: 355px;
+    top: 3456px;
 
 }
 .naps{
@@ -570,24 +635,22 @@
     color: #000000;
 }
 
-.sectiondiv6{
+.section-blog-img1{
     position: absolute;
-    width: 355px;
+    width: 255px;
     height: 350px;
-    left: 775px;
-    top: 3533px;
-    background-image: url(./imgs/Rectangle\ 14.png);
-    opacity: 0.9;
+    left: 735px;
+    top: 3456px;
+    opacity: 0.8;
+
 }
-.sectiondiv66 {
+.section-blog-img2 {
     position: absolute;
-    width: 355px;
+    width: 255px;
     height: 350px;
-    left: 1180px;
-    top: 3533px;
-    /* background: linear-gradient(180deg, rgba(196, 196, 196, 0) 0%, #25202F 100%); */
-    background-image: url(./imgs/Rectangle15.png);
-    opacity: 0.9;
+    left: 1020px;
+    top: 3456px;
+    opacity: 0.8;
 }
 .tech{
     margin-bottom: 10px;
@@ -608,6 +671,23 @@
     font-weight: bold;
     font-size: 20px;
     line-height: 26px;
-
+    margin: 0;
     color: #FFFFFF;
+}
+.sectiondiv6{
+    position: absolute;
+    width: 197px;
+    height: 21px;
+    left: 755px;
+    top: 3678px;
+    z-index: 1;
+    
+}
+.sectiondiv6-6{
+    position: absolute;
+    width: 212px;
+    height: 21px;
+    left: 1040px;
+    top: 3696px;
+    z-index: 1;
 }
