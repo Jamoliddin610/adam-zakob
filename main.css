@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500&display=swap');
-.container{
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.container {
     width: 1440px;
     margin: 0 auto;
     box-sizing: border-box;
@@ -419,8 +421,7 @@ h4{
     position: absolute;
     width: 50px;
     height: 2px;
-    left: 165px;
-    top: 2180px;
+    
 }
 .sectionh2_0{
     font-family: Red Hat Display;
@@ -592,9 +593,10 @@ h4{
 /* ---------------pageofmain5----------- */
 .pageofmain5{
     margin-top: 120px;
-    height: 800px;
+    height: 350px;
     width: auto;
     padding: 0 165px;
+    margin-bottom: 100px;
     
 }
 .sectionhr5{
@@ -690,4 +692,107 @@ h4{
     left: 1040px;
     top: 3696px;
     z-index: 1;
+}
+/* ---------------pageofmain6------------ */
+.pageofmain6{
+    padding: 50px 165px;
+    background: linear-gradient(180deg, rgba(187, 133, 255, 0.166) -8.54%, rgba(255, 244, 251, 0.2) 100%);
+    height: 850px;
+}
+.sectionhr6{
+    width: 50px;
+    height: 2px;
+    background: #8643DC;
+    border: none;
+    position: absolute;
+    width: 50px;
+    height: 2px;
+}
+.sectionh2.footer{
+    width: 515px;
+    height: 160px;
+}
+.infoname{
+    position: absolute;
+    width: 223px;
+    height: 28px;
+    left: 1052px;
+    top: 3999px;
+
+    font-family: 'Roboto',
+    sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration-line: underline;
+    text-transform: lowercase;
+
+    color: #8643DC;
+}
+.inf{
+    display: block;
+    width: 100%;
+    padding:  17px 0;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom:  #DAD2E3 1px solid;
+    font-family: Red Hat Display;
+    background-color:#F9F3FF;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #A8A0B0;
+    
+}
+.pageofmain6-button {
+    background: #8643DC;
+    border-radius: 100px;
+    font-family: Red Hat Display;
+    
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    border: none;
+    text-align: center;
+    Width: 200px;
+    Height: 60px;
+    color: #FFFFFF;
+    cursor: pointer;
+    
+}
+.teenyicon{
+    position: absolute;
+    
+    left: 1212px;
+    top: 4487px;
+    
+}
+.arrowicon{
+    position: absolute;
+
+    left: 1252px;
+    top: 4480px;
+}
+.let-sbe{
+    font-family: Red Hat Display;
+    
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    
+
+    text-align: center;
+
+    color: #21232D;
+}
+.appsicons{
+    display: flex;
+    list-style: none;
+    width: 260px;
+    justify-content: space-around;
+    padding: 0;
+
+}
+.footeroffoot{
+    width: 260px;
+    margin: 150px auto 0;
 }
